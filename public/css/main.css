@@ -12,6 +12,7 @@
 .jumbotron {
   background-image: url('../images/bountiful.jpg');
   height: 500px;
+  margin-bottom: 5px;
 }
 .jumbotron .container {
   position: relative;
@@ -22,4 +23,35 @@
   font-size: 48px;
   font-family: sans-serif;
   font-weight: bold;
+}
+.project-overview {
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;
+}
+.project-overview p {
+  margin-bottom: 18px;
+}
+.learn-more {
+  padding-top: 30px;
+  padding-bottom: 46px;
+}
+footer {
+  height: 30px;
+  background-color: #EFEFEF;
+  /*border-top: solid 1px black;*/
+  margin-bottom: 0;
+}
+.footer-nav {
+  padding-top: 6px;
+  float: right;
+}
+.footer-nav li {
+  display: inline;
+  padding-right: 20px;
+}
+.footer-nav li, li a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
